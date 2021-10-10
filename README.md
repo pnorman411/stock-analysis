@@ -18,6 +18,10 @@ The client was so impressed with the ability to calculate the total volume and a
 
 DQ had a positive return of 199% in 2017 but plummeted in 2018 for a -62.6% return.  Green energy stocks as a whole had a successful year in 2017 based on returns.  For 2018, ENPH and RUN were the only two green energy stocks that calculated positive returns.
 
+![VBA_Challenge_All_Stocks_2018](https://user-images.githubusercontent.com/90982811/136708675-612f8e9d-6f7d-4835-9aec-15580aecfd41.png)
+
+![VBA_Challenge_All_Stocks_2017](https://user-images.githubusercontent.com/90982811/136708679-8719ea5a-5e1e-456a-b21f-838add8c9493.png)
+
 ## Summary
 
 ### Advantages and Disadvantages of Refactoring Code
@@ -39,3 +43,7 @@ The disadvantage of the original VBA script is that it has nested loops which ca
 An advantage of the refactored script is that it ran faster than the original script.  The 2017 data ran 83.6% faster (0.1367188 seconds versus 0.8359375 seconds), and the 2018 data ran 84.7% faster (0.125 seconds versus 0.8164063 seconds).  Running thousands of tickers through the refactored scripts could save a significant amount of time.
 
 The refactored script needed much debugging and trial and error in order to get it to run.  It may be hard for some to follow and comprehend the nested definitions, e.g. tickers(tickerIndex), tickerStartingPrices(tickerIndex), etc.
+
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/90982811/136708714-b997754a-5e97-4066-be05-530a8f5b2903.png)
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/90982811/136708718-46ebfd16-ea58-4784-a375-ee2aff28842b.png)
